@@ -15,3 +15,8 @@ overlay.addEventListener("click", () => {
     list.classList.remove("nav-list-active");
     overlay.classList.remove("overlay-active");
 });
+
+// Contact page
+function scrollToContact() {
+    document.querySelector('.contact-section').scrollIntoView({ behavior: 'smooth' });
+}
