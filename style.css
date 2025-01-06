@@ -446,8 +446,7 @@ textarea {
 
 /* Resume page */
 .resume-section {
-    padding: 2rem;
-    
+    padding: 2rem;   
 }
 
 .resume-section h2 {
@@ -456,6 +455,25 @@ textarea {
     font-size: 2rem;
 }
 
+.resume-section iframe {
+    border: 1px solid var(--grey-clr); 
+    border-radius: 0.5rem;            
+    margin-top: 1rem;                
+}
 
+.embed-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 75%; 
+}
+
+.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 
