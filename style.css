@@ -442,3 +442,20 @@ textarea {
     color: var(--yellow-clr);
     border: 1px solid var(--yellow-clr);
 }
+
+
+/* Resume page */
+.resume-section {
+    padding: 2rem;
+    
+}
+
+.resume-section h2 {
+    color: var(--white-clr);
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+
+
+
