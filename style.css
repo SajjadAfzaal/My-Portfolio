@@ -476,4 +476,53 @@ textarea {
     height: 100%;
 }
 
+/* Services Section */
+.services-section {
+    padding: 3rem 0;
+    text-align: center;
+    background-color: var(--black-clr);
+}
 
+.services-section h2 {
+    color: var(--yellow-clr);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.service-card {
+    background-color: var(--grey-clr);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.service-icon {
+    width: 140px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+.service-card h3 {
+    color: var(--black-clr);
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.service-card p {
+    color: var(--black-clr);
+    font-size: 1rem;
+    line-height: 1.5;
+}
