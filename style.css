@@ -526,3 +526,19 @@ textarea {
     font-size: 1rem;
     line-height: 1.5;
 }
+
+/* Projects Section */
+.github-profile .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.github-profile .btn:hover {
+    background-color: #555;
+}
